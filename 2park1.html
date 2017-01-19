@@ -19,9 +19,9 @@
 <label>email</label><br>
 <input type="email" name="email" placeholder="ivanov@mail.ru" required="required"><br>
 <label>Пароль</label><br>
-<input type="password" name="password" pattern="[A-Za-zА-Яа-яЁё][0-9]{5,10}" maxlength="10" placeholder="qwertyA$" required="required"><br>
+<input type="password" name="password" pattern="(?=.*[A-Z]{1,})(?=.*\W{1}).{5,10}" maxlength="10" placeholder="qwertyA$" required="required"><br>
 <label>Повтор пароля</label><br>
-<input type="password" name="password" pattern="[A-Za-zА-Яа-яЁё][0-9]{5,10}" maxlength="10" placeholder="qwertyA$" required="required"><br>
+<input type="password" name="password" pattern="(?=.*[A-Z]{1,})(?=.*\W{1}).{5,10}" maxlength="10" placeholder="qwertyA$" required="required"><br>
 
 <label><input class="checkbox-custom" type="checkbox"> Подписка на новости</label><br>
 <label><input class="checkbox-custom" type="checkbox"> Подписка на акции</label><br>
