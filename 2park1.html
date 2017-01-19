@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Регистрация</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body id="wrapper">
+
+<form id="login">
+<h2> Регистрация </h2>
+<hr><br>
+<label>Имя</label><br>
+<input type="text" name="name" pattern="[A-Za-zА-Яа-яЁё][0-9]{2,10}" placeholder="Андрей1998" required="required" name="Имя"><br>
+<label>Фамилия</label><br>
+<input type="text" name="fam" pattern="[A-Za-zА-Яа-яЁё]{2,14}" placeholder="Иванов" required="required"><br>
+<label>Логин</label><br>
+<input type="text" name="login" pattern="[A-Za-zА-Яа-яЁё]{3,14}[0-9]{3,14}" placeholder="sambuka" required="required"><br>
+<label>email</label><br>
+<input type="email" name="email" placeholder="ivanov@mail.ru" required="required"><br>
+<label>Пароль</label><br>
+<input type="password" name="password" pattern="[A-Za-zА-Яа-яЁё][0-9]{5,10}" placeholder="qwertyA$" required="required"><br>
+<label>Повтор пароля</label><br>
+<input type="password" name="password" pattern="[A-Za-zА-Яа-яЁё][0-9]{5,10}" placeholder="qwertyA$" required="required"><br>
+
+<label><input class="checkbox-custom" type="checkbox"> Подписка на новости</label><br>
+<label><input class="checkbox-custom" type="checkbox"> Подписка на акции</label><br>
+<label><input class="checkbox-custom" type="checkbox"> Подписка на мероприятия</label><br>
+
+<p class="signin button"><br>
+<input type="submit" value="Регистрация"></p>
+
+</form>
+
+
+</body>
+</html>
